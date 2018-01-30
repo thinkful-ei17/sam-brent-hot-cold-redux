@@ -7,8 +7,8 @@ export default function TopNav(props) {
     <nav>
       <ul className="clearfix">
         <li>
-          <a 
-            href="#what" 
+          <a
+            href="#what"
             className="what"
             aria-label="How to play"
           >
@@ -28,7 +28,7 @@ export default function TopNav(props) {
         <li>
           <a
             href="#get-status"
-            /* the `visuallyhidden` class hides an element 
+            /* the `visuallyhidden` class hides an element
             while leaving it available to screen reader users  */
             className="visuallyhidden focusable status-link"
             onClick={() => props.onGenerateAuralUpdate()}

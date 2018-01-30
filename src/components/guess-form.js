@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './guess-form.css';
 
 export default class GuessForm extends React.Component {
@@ -26,13 +25,13 @@ export default class GuessForm extends React.Component {
           max="100"
           autoComplete="off"
           aria-labelledby="feedback"
-          ref={input => (this.input = input)}
+          ref={(input) => { this.input = input; }}
           required
         />
-        <button 
+        <button
           type="submit"
           name="submit"
-          id="guessButton" 
+          id="guessButton"
           className="button"
         >
           Guess
